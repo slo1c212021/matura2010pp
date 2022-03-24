@@ -17,7 +17,7 @@ int main ()
 {
     int licznik = 0;
     string s;
-    ifstream f("dane.txt");
+    ifstream f("hasla.txt");
     while(f>>s)
     {
         if(is_palindrome(s))
